@@ -2,7 +2,7 @@
 reset
 set term gif animate
 set output "animate.gif"
-T = 1000 #number of frames
+T = 200 #number of frames
 n = 100 #resolution of x-axis
 dt = 2*pi/T
 set xrange [0:2*pi]
