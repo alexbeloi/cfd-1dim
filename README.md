@@ -3,6 +3,8 @@ Code to play around with and test different computational fluid dynamics schemes
 
 The fluid dynamics computations are written in C. The visualization is done using gnuplot to generate either a gif or mpeg animation.
 
+![animate.gif](http://i.imgur.com/VwUWzsQ.gif 'animate.gif')
+
 ### Current Status
 Project has achieved all that was set out for it. There are no plans to expand on the current implementation. A related project ([distributed-cfd](https://github.com/alexbeloi/distributed-cfd)) was started to parrallelize the fluid dynamics computation across a networked cluster.
 
@@ -33,8 +35,7 @@ To generated an animated gif of the plotted data run
 $ gnuplot plotscript.gnuplot
 End of animation sequence
 ```
-This will creat the following file `animate.gif`
-![animate.gif](http://i.imgur.com/VwUWzsQ.gif 'animate.gif')
+This will create the file `animate.gif` seen above.
 
 Alternatively, if you wish to generate an mpeg file then you can running the included script (note that the script will compile and run the C code again). This requires ffmpeg to be installed.
 ```
